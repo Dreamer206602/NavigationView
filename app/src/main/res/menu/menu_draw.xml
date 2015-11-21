@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--android:checkableBehavior="single"-->
+    <group >
+        <item
+            android:checkable="true"
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/ic_dashboard"
+            android:title="Home"
+            />
+        <item
+            android:checkable="true"
+            android:id="@+id/nav_messages"
+            android:icon="@mipmap/ic_event"
+            android:title="Messages"/>
+        <item
+            android:checkable="true"
+            android:id="@+id/nav_friends"
+            android:icon="@mipmap/ic_forum"
+            android:title="Discussion"/>
+    </group>
+
+    <item android:title="Sub items">
+
+        <menu>
+            <item
+                android:checkable="true"
+                android:icon="@mipmap/ic_dashboard"
+                android:title="Sub item 1"/>
+
+            <item
+                android:checkable="true"
+                android:icon="@mipmap/ic_forum"
+                android:title="Sub item 2"/>
+
+            </menu>
+
+    </item>
+
+
+
+
+</menu>
